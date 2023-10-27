@@ -1,0 +1,462 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#main{
+    width: 100%;
+    height: 77px;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px #80808061;
+    padding: 12px;
+}
+.canva{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.design_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.design_main a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 100;
+}
+.design_main img{
+    position: absolute;
+    top: 3px;
+}
+.design_main h4{
+    padding-right: 30px;
+    color: #000000b8;
+}
+.navform input[type="text"]{
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #8080806b;
+}
+.icons img{
+    padding: 0 10px;
+}
+.icons a{
+    text-decoration: none;
+}
+.create_btn a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(138 61 255);
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+.zoomimg img {
+    position: absolute;
+    top: 24px;
+    left: 40.4rem;
+}
+.zoommain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userbox  a{
+    text-decoration: none;
+    color: #fff
+}
+.userbox{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ba0000;
+    color: #fff;
+    text-align: center;
+    padding-top: 7px;
+    position: relative;
+}
+.userbox2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+
+
+
+
+.fsl_main{
+    position: relative;
+}
+.fsl_main a{
+    text-decoration: none;
+    color: #000;
+}
+.fsl_main .magic a{
+    text-decoration: none;
+    color: rgb(121 180 222);
+}
+.fsl_creativity_box{
+    width: 250px;
+    height: 60px;
+    border: 1px solid #8080808a;
+    box-shadow: 0px 0px 2px #8080808a;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fc_img{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: grey;
+    border-radius: 50% ;
+    text-align: center;
+    padding-top: 5px;
+}
+.creativity h5{
+    color: grey;
+    font-size: 16px;
+    font-weight: 200;
+}
+.creativity img{
+    width: 40px;
+    padding: 0 11px;
+    position: absolute;
+    top: 33px;
+}
+.creativity span{
+    position: absolute;
+    top: 1.9rem;
+    right: 5.8rem;
+}
+.get{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: hsl(220deg 13.04% 95.49%);
+    text-align: center;
+    padding-top: 7px;
+}
+.get img{
+    width: 21px;
+    position: absolute;
+    top: 4.9rem;
+    left: 2.6rem;
+}
+.home{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: hsl(210deg 11.11% 89.41%);
+}
+.home h4{
+    padding: 7px 3rem;
+    font-weight: 500;
+}
+.home img {
+    position: absolute;
+    top: 8.6rem;
+    left: 1.3rem;
+}
+.new {
+    width: 39px;
+    height: 20px;
+    color: #fff;
+    background-color: rgb(144 64 255);
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px 0;
+}
+.magic{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.magic img  {
+    position: absolute;
+    left: 1.3rem;
+}
+.magic h4{
+    color: rgb(121 180 222);
+    padding: 7px 2.5rem;
+    font-weight: 500;
+}
+.project{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project h4 img{
+    position: absolute;
+    left: 1.2rem;
+    width: 25px;
+}
+.project h4{
+    padding: 7px 3rem;
+    font-weight: 500;
+}
+.templetes {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.templetes h4 img{
+    position: absolute;
+    left: 1.2rem;
+    width: 25px;
+}
+.templetes h4 {
+    padding: 7px 3rem;  
+    font-weight: 500;
+}
+.brand {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand h4 img{
+    position: absolute;
+    left: 1.2rem;
+    width: 25px;
+}
+.brand h4 {
+    padding: 7px 3rem;  
+    font-weight: 500;
+}
+.crown{
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: rgb(184, 149, 74);   
+    border-radius: 20px; 
+    padding: 0 2px;
+}
+.apps {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apps h4 img{
+    position: absolute;
+    left: 1.2rem;
+    width: 25px;
+}
+.apps h4 {
+    padding: 7px 3rem;  
+    font-weight: 500;
+}
+.invite{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(244 244 246);
+    margin-top: 5rem;
+}
+.invite h4 img{
+    position: absolute;
+    left: 1.2rem;
+    width: 25px;
+}
+.invite h4 {
+    padding: 7px 3rem;  
+    font-weight: 500;
+}
+.trash{
+    width: 250px;
+    height: 40px;
+}
+.trash h4 img{
+    position: absolute;
+    left: 1.2rem;
+    width: 25px;
+}
+.trash h4 {
+    padding: 7px 3rem;  
+    font-weight: 500;
+}
+.meet_main{
+    width: 77%;
+    height: 300px;
+    background: linear-gradient(to right,#0000ffbd,#800080d1);
+    border-radius: 10px;
+    margin: 0 31px;
+}
+.meet_magic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.meet_magic h1{
+    color: #fff;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 2rem;
+}
+.whole_main{
+    display: -webkit-box;
+    margin: 2rem 1.2rem;
+}
+.custom{
+    position: absolute;
+    right: 3rem;
+    top: 8.3rem;
+}
+.custom span a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(124 58 194);
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 0 7px;
+}
+.use5 input[type="text"] {
+    width: 516px;
+    height: 40px;
+    padding: 0 2rem;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 14rem;
+    left: 35rem;
+}
+.search {
+    position: absolute;
+    top: 14.4rem;
+    left: 35.3rem;
+    z-index: 1;
+}
+.for_you img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.for_you_main a{
+    text-decoration: none;
+    color: #fff;
+}
+.for_you h5{
+    font-weight: 200;
+    color: #fff;
+}
+.docs img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.docs h5{
+    font-weight: 200;
+    color: #fff;
+}
+.whiteboards img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.whiteboards h5{
+    font-weight: 200;
+    color: #fff;
+}
+.presentations img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.presentations h5{
+    font-weight: 200;
+    color: #fff;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.social h5{
+    font-weight: 200;
+    color: #fff;
+}
+.videos img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.videos h5{
+    font-weight: 200;
+    color: #fff;
+}
+.print img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.print h5{
+    font-weight: 200;
+    color: #fff;
+}
+.website img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.website h5{
+    font-weight: 200;
+    color: #fff;
+}
+.more img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.more h5{
+    font-weight: 200;
+    color: #fff;
+}
+.for_you_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+    text-align: center;
+    position: absolute;
+    top: 18rem;
+    left: 24rem;
+}
